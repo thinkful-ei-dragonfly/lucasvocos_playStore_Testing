@@ -1,11 +1,11 @@
 {
   "name": "googleServer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "test": "mocha",
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,21 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-dragonfly/lucasvocos_playStore_Testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-dragonfly/lucasvocos_playStore_Testing/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-dragonfly/lucasvocos_playStore_Testing#readme",
+  "description": ""
 }
